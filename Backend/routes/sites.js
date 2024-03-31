@@ -14,6 +14,6 @@ router.patch('/', sitesController.updateSite) // UPDATE a new site
 
 // Services
 router.post('/import', upload.single('file'), sitesController.importSites)
-router.patch('/extract-adress', sitesController.extractAddress)
+router.patch('/extract-address', sitesController.extractAddress)
 
 module.exports = router
